@@ -1,0 +1,153 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(83 110 110);
+    color: azure;
+    
+}
+
+body{
+    margin: 0px 20px 60px 60px;
+}
+
+#header{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:  rgb(83 110 110);
+    box-shadow: 0px 5 25px rgb(14, 14, 14); 
+    padding: 20px 50px;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+
+.logo{
+    font-weight: bolder;
+    color: rgb(249, 243, 243);
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+}
+
+a.logo{
+    text-decoration: none;
+}
+
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+
+#navbar > li{
+   list-style: none;
+   padding: 0px 20px;
+}
+
+#navbar li >a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(253, 253, 253, 0.817);
+}
+
+#navbar li a:hover, #navbar li a:active {
+        color: rgb(255, 255, 255);
+        text-decoration: underline;      
+}
+
+#mobile-header{
+    display: none;
+    align-items: center;
+}
+
+#close{
+    display: none;
+}
+
+.image img{
+    height: 250px;
+    width: 360px;
+    margin-bottom: 50px;
+    
+}
+
+.aboutUs{
+   font-size: 40px;
+   /* padding-left: 60px; */
+
+}
+article{
+    float: left;
+    font-size: 18px;
+    width: 60%;  
+}
+
+ 
+
+button:hover{
+    background-color: darkgreen;
+    color: azure;
+}
+
+h1{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 60px;
+}
+
+
+.container{
+    width: 100%; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.team_member{
+    width: 100%;
+}
+
+.team_member .name{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.team_member .designation{
+    font-size: 15px;
+    font-weight: bold;  
+}
+
+#profile{
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+}
+
+.details{
+    padding: 20px;
+}
+
+
+@media (max-width:577px){
+    .container{
+        width: 100%; 
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    article{
+        
+        font-size: 18px;
+        width: 100%;  
+    }
+
+    .image img{
+        margin:20px 0px;
+    }
+    
+}

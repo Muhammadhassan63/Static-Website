@@ -1,0 +1,35 @@
+.container{
+    
+    width: 100%; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    
+    
+    
+}
+
+.team_member{
+    width: 90%;
+   
+}
+
+.team_member .name{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.team_member .designation{
+    font-size: 15px;
+    font-weight: bold;  
+}
+
+#profile{
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    
+}
+
+.details{
+    padding: 20px;
+}
